@@ -64,6 +64,4 @@ jobs:
           file: ./Dockerfile
           # platforms: linux/amd64,linux/arm64
           push: true
-          tags: |
-            hoangtheanhhp/it-tools:staging
-            ghcr.io/hoangtheanhhp/it-tools:staging
+          tags: ghcr.io/${{ github.repository }}/it-tools:staging
