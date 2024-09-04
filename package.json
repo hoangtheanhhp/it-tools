@@ -1,13 +1,13 @@
 {
   "name": "it-tools",
-  "version": "2024.10.22-7ca5933",
+  "version": "2024.12.03",
   "packageManager": "pnpm@8.15.3",
   "description": "Collection of handy online tools for developers, with great UX. ",
-  "author": "Corentin Th <corentin.thomasset74+it-tools@gmail.com> (https://corentin.tech)",
+  "author": "LinuxFedora <hoangtheanhhp@gmail.com> (https://tools.chitmo.com)",
   "license": "GNU GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CorentinTh/it-tools"
+    "url": "https://github.com/hoangtheanhhp/it-tools"
   },
   "keywords": [
     "productivity",
@@ -133,6 +133,8 @@
     "@vue/tsconfig": "^0.4.0",
     "consola": "^3.0.2",
     "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
     "hygen": "^6.2.11",
     "jsdom": "^22.0.0",
     "less": "^4.1.3",

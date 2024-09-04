@@ -7,9 +7,9 @@ home:
   subtitle: 'Herramientas practicas para desarrolladores'
   toggleMenu: 'Toggle menu'
   home: Home
-  uiLib: 'UI Lib'
-  support: 'Apoyar el desarrollo de IT-Tools'
-  buyMeACoffee: 'Buy me a coffee'
+  uiLib: UI Lib
+  support: Apoyar el desarrollo de IT-Tools
+  buyMeACoffee: Buy me a coffee
   follow:
     title: 'Te gustan las it-tools?'
     p1: 'Danos una estrella en'
@@ -46,20 +46,20 @@ about:
     Y si encontró un error o algo no funciona como se esperaba, presente un reporte de error en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
 
 404:
-  notFound: '404 Not Found'
+  notFound: 404 Not Found
   sorry: 'Lo sentimos, esta página no parece existir'
   maybe: 'Tal vez el caché esté haciendo cosas raras, ¿probamos a refrescar forzosamente?'
-  backHome: 'Back home'
+  backHome: Back home
 favoriteButton:
-  remove: 'Quitar de favoritos'
-  add: 'Añadir a favoritos'
+  remove: Quitar de favoritos
+  add: Añadir a favoritos
 toolCard:
   new: Nuevo
 search:
   label: Buscar
 tools:
   categories:
-    favorite-tools: 'Tus herramientas favoritas'
+    favorite-tools: Tus herramientas favoritas
     crypto: Crypto
     converter: Converter
     web: Web
