@@ -1,31 +1,31 @@
 home:
   categories:
-    newestTools: '最新工具'
-    favoriteTools: '我的收藏'
-    allTools: '全部工具'
-  subtitle: '助力开发人员和 IT 工作者'
-  toggleMenu: '切换菜单'
-  home: '主页'
-  uiLib: 'UI 库'
-  support: '支持 IT 工具开发'
-  buyMeACoffee: '赞助'
+    newestTools: 最新工具
+    favoriteTools: 我的收藏
+    allTools: 全部工具
+  subtitle: 助力开发人员和 IT 工作者
+  toggleMenu: 切换菜单
+  home: 主页
+  uiLib: UI 库
+  support: 支持 IT 工具开发
+  buyMeACoffee: 赞助
   follow:
-    title: '关注我们'
-    p1: '给我们 Star'
-    githubRepository: 'GitHub 仓库'
-    p2: '关注我们的'
-    twitterAccount: 'Twitter'
-    thankYou: '感谢您的支持！'
+    title: 关注我们
+    p1: 给我们 Star
+    githubRepository: GitHub 仓库
+    p2: 关注我们的
+    twitterAccount: Twitter
+    thankYou: 感谢您的支持！
   nav:
-    github: 'GitHub 仓库'
-    githubRepository: 'GitHub 仓库'
-    twitter: 'Twitter 账号'
-    twitterAccount: 'Twitter 账号'
-    about: '关于 IT-Tools'
-    aboutLabel: '关于'
-    darkMode: '深色模式'
-    lightMode: '浅色模式'
-    mode: '颜色模式'
+    github: GitHub 仓库
+    githubRepository: GitHub 仓库
+    twitter: Twitter 账号
+    twitterAccount: Twitter 账号
+    about: 关于 IT-Tools
+    aboutLabel: 关于
+    darkMode: 深色模式
+    lightMode: 浅色模式
+    mode: 颜色模式
 about:
   content: >
     # 关于 IT-Tools
@@ -45,30 +45,30 @@ about:
     如果您发现了 Bug，或者某些功能未能按预期工作，请在 GitHub 仓库的 [issues](https://github.com/CorentinTh/it-tools/issues/new/choose) 中提交错误报告。
 
 404:
-  notFound: '404 页面不存在'
-  sorry: '抱歉，该页面似乎不存在'
-  maybe: '也许缓存出现了一些问题，试试强制刷新页面？'
-  backHome: '返回主页'
+  notFound: 404 页面不存在
+  sorry: 抱歉，该页面似乎不存在
+  maybe: 也许缓存出现了一些问题，试试强制刷新页面？
+  backHome: 返回主页
 favoriteButton:
-  remove: '取消收藏'
-  add: '加入收藏'
+  remove: 取消收藏
+  add: 加入收藏
 toolCard:
-  new: '新'
+  new: 新
 search:
-  label: '搜索'
+  label: 搜索
 tools:
   categories:
-    favorite-tools: '我的收藏'
-    crypto: '加密'
-    converter: '转换器'
+    favorite-tools: 我的收藏
+    crypto: 加密
+    converter: 转换器
     web: Web
-    images and videos: '图片和视频'
-    development: '开发'
-    network: '网络'
-    math: '数学'
-    measurement: '测量'
-    text: '文本'
-    data: '数据'
+    images and videos: 图片和视频
+    development: 开发
+    network: 网络
+    math: 数学
+    measurement: 测量
+    text: 文本
+    data: 数据
 
   password-strength-analyser:
     title: 密码强度分析仪
@@ -81,12 +81,12 @@ tools:
     title: Token 生成器
     description: 使用您想要的字符、大写或小写字母、数字和/或符号生成随机字符串。
 
-    uppercase: '大写 (ABC...)'
-    lowercase: '小写 (abc...)'
-    numbers: '数字 (123...)'
-    symbols: '符号 (!-;...)'
-    length: '长度'
-    tokenPlaceholder: '令牌...'
+    uppercase: 大写 (ABC...)
+    lowercase: 小写 (abc...)
+    numbers: 数字 (123...)
+    symbols: 符号 (!-;...)
+    length: 长度
+    tokenPlaceholder: 令牌...
     copied: 复制到剪贴板
     button:
       copy: 复制
@@ -310,7 +310,7 @@ tools:
 
   hash-text:
     title: Hash 文本
-    description: '使用所需的函数哈希文本字符串：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3或RIPEMD160'
+    description: 使用所需的函数哈希文本字符串：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3或RIPEMD160
 
   json-to-toml:
     title: JSON 转 TOML
@@ -322,7 +322,7 @@ tools:
 
   pdf-signature-checker:
     title: PDF签名检查器
-    description: '验证PDF文件的签名。签名的PDF文件包含一个或多个签名，可用于确定文件的内容在签名后是否已被更改。'
+    description: 验证PDF文件的签名。签名的PDF文件包含一个或多个签名，可用于确定文件的内容在签名后是否已被更改。
 
   json-minify:
     title: JSON 压缩

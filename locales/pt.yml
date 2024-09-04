@@ -1,31 +1,31 @@
 home:
   categories:
-    newestTools: 'Novas ferramentas'
-    favoriteTools: 'Suas ferramentas favoritas'
-    allTools: 'Todas as ferramentas'
-  subtitle: 'Ferraentas úteis para desenvolvedores'
-  toggleMenu: 'Menu'
-  home: 'Início'
-  uiLib: 'Biblioteca de UI'
-  support: 'Apoie o desenvolvimento do IT Tools'
-  buyMeACoffee: 'Pague-me um café'
+    newestTools: Novas ferramentas
+    favoriteTools: Suas ferramentas favoritas
+    allTools: Todas as ferramentas
+  subtitle: Ferraentas úteis para desenvolvedores
+  toggleMenu: Menu
+  home: Início
+  uiLib: Biblioteca de UI
+  support: Apoie o desenvolvimento do IT Tools
+  buyMeACoffee: Pague-me um café
   follow:
-    title: 'Gostou do it-tools?'
-    p1: 'Dê uma estrela no'
-    githubRepository: 'repositório do IT-Tools no GitHub'
-    p2: 'ou siga nossa'
-    twitterAccount: 'conta IT-Tools no Twitter'
-    thankYou: 'Obrigado !'
+    title: Gostou do it-tools?
+    p1: Dê uma estrela no
+    githubRepository: repositório do IT-Tools no GitHub
+    p2: ou siga nossa
+    twitterAccount: conta IT-Tools no Twitter
+    thankYou: Obrigado !
   nav:
-    github: 'Repositório no GitHub'
-    githubRepository: 'repositório do IT-Tools no GitHub'
-    twitter: 'Conta no Twitter'
-    twitterAccount: 'conta do IT Tools no Twitter'
-    about: 'Sobre o IT-Tools'
-    aboutLabel: 'Sobre'
-    darkMode: 'Modo Escuro'
-    lightMode: 'Modo Claro'
-    mode: 'Trocar modo escuro/claro'
+    github: Repositório no GitHub
+    githubRepository: repositório do IT-Tools no GitHub
+    twitter: Conta no Twitter
+    twitterAccount: conta do IT Tools no Twitter
+    about: Sobre o IT-Tools
+    aboutLabel: Sobre
+    darkMode: Modo Escuro
+    lightMode: Modo Claro
+    mode: Trocar modo escuro/claro
 about:
   content: >
     # Sobre o IT-Tools
@@ -45,27 +45,27 @@ about:
     E se você encontrar um bug ou se algo não funcionar como esperado, por favor registre um relato de bug na [seção de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no GitHub.
 
 404:
-  notFound: '404 Não Encontrado'
+  notFound: 404 Não Encontrado
   sorry: 'Desculpe, parece que essa página não existe'
   maybe: 'Talvez o cache esteja fazendo bobagem, que tal tentar forçar a atualização?'
-  backHome: 'Voltar para o início'
+  backHome: Voltar para o início
 favoriteButton:
-  remove: 'Remover dos favoritos'
-  add: 'Adicionar aos favoritos'
+  remove: Remover dos favoritos
+  add: Adicionar aos favoritos
 toolCard:
-  new: 'Novo'
+  new: Novo
 search:
-  label: 'Pesquisar'
+  label: Pesquisar
 tools:
   categories:
-    favorite-tools: 'Suas ferramentas favoritas'
-    crypto: 'Cripto'
-    converter: 'Conversores'
-    web: 'Web'
+    favorite-tools: Suas ferramentas favoritas
+    crypto: Cripto
+    converter: Conversores
+    web: Web
     images and videos: 'Imagens & Vídeos'
-    development: 'Desenvolvimento'
-    network: 'Rede'
-    math: 'Matemática'
-    measurement: 'Medidas'
-    text: 'Texto'
-    data: 'Dados'
+    development: Desenvolvimento
+    network: Rede
+    math: Matemática
+    measurement: Medidas
+    text: Texto
+    data: Dados

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { toHiragana, toKatakana, isKatakana } from 'wanakana';
+import { isKatakana, toHiragana, toKatakana } from 'wanakana';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 
 const input = ref('Input your text here');
@@ -9,14 +9,14 @@ const processing = ref(false);
 
 // Conversion functions
 function convertFullwidthToHalfwidth(text: string): string {
-  return text.replace(/[\uFF01-\uFF5E]/g, (ch) =>
-    String.fromCharCode(ch.charCodeAt(0) - 0xfee0)
+  return text.replace(/[\uFF01-\uFF5E]/g, ch =>
+    String.fromCharCode(ch.charCodeAt(0) - 0xFEE0),
   ).replace(/\u3000/g, ' ');
 }
 
 function convertHalfwidthToFullwidth(text: string): string {
-  return text.replace(/[!-~]/g, (ch) =>
-    String.fromCharCode(ch.charCodeAt(0) + 0xfee0)
+  return text.replace(/[!-~]/g, ch =>
+    String.fromCharCode(ch.charCodeAt(0) + 0xFEE0),
   ).replace(/ /g, '\u3000');
 }
 
@@ -33,7 +33,7 @@ function convertAlphabetToKatakana(text: string): string {
 }
 
 function convertKatakanaToAlphabet(text: string): string {
-  return isKatakana(text) ? text.replace(/[\u30A1-\u30F6]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0x60)) : text;
+  return isKatakana(text) ? text.replace(/[\u30A1-\u30F6]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60)) : text;
 }
 
 function convertAlphabetToHiragana(text: string): string {
@@ -41,7 +41,7 @@ function convertAlphabetToHiragana(text: string): string {
 }
 
 function convertHiraganaToAlphabet(text: string): string {
-  return toKatakana(text);  // Example logic, you may need a custom implementation
+  return toKatakana(text); // Example logic, you may need a custom implementation
 }
 
 function normalizeText(text: string): string {
@@ -83,8 +83,9 @@ watchEffect(() => {
       default:
         output.value = input.value;
     }
-  } catch (e: any) {
-    console.error("Error in conversion:", e);
+  }
+  catch (e: any) {
+    console.error('Error in conversion:', e);
   }
   processing.value = false;
 });
@@ -104,17 +105,19 @@ function swapConversionType() {
 
     <n-grid cols="3" x-gap="12" w-full>
       <n-gi span="2">
-        <c-select v-model:value="conversionType" label-position="top" label="Conversion Type:" :options="[
-          { label: 'Fullwidth to Halfwidth', value: 'fullwidth-to-halfwidth' },
-          { label: 'Halfwidth to Fullwidth', value: 'halfwidth-to-fullwidth' },
-          { label: 'Hiragana to Katakana', value: 'hiragana-to-katakana' },
-          { label: 'Katakana to Hiragana', value: 'katakana-to-hiragana' },
-          { label: 'Alphabet to Katakana', value: 'alphabet-to-katakana' },
-          { label: 'Katakana to Alphabet', value: 'katakana-to-alphabet' },
-          { label: 'Alphabet to Hiragana', value: 'alphabet-to-hiragana' },
-          { label: 'Hiragana to Alphabet', value: 'hiragana-to-alphabet' },
-          { label: 'Normalize', value: 'normalize' },
-        ]" placeholder="Select conversion type" />
+        <c-select
+          v-model:value="conversionType" label-position="top" label="Conversion Type:" :options="[
+            { label: 'Fullwidth to Halfwidth', value: 'fullwidth-to-halfwidth' },
+            { label: 'Halfwidth to Fullwidth', value: 'halfwidth-to-fullwidth' },
+            { label: 'Hiragana to Katakana', value: 'hiragana-to-katakana' },
+            { label: 'Katakana to Hiragana', value: 'katakana-to-hiragana' },
+            { label: 'Alphabet to Katakana', value: 'alphabet-to-katakana' },
+            { label: 'Katakana to Alphabet', value: 'katakana-to-alphabet' },
+            { label: 'Alphabet to Hiragana', value: 'alphabet-to-hiragana' },
+            { label: 'Hiragana to Alphabet', value: 'hiragana-to-alphabet' },
+            { label: 'Normalize', value: 'normalize' },
+          ]" placeholder="Select conversion type"
+        />
       </n-gi>
       <n-gi span="1" display="flex" align="center" justify="center" style="margin: auto;">
         <n-button text @click="swapConversionType">
@@ -123,7 +126,8 @@ function swapConversionType() {
               <g fill="none">
                 <path
                   d="M12.146 3.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L14.293 7H4.5a.5.5 0 0 1 0-1h9.793l-2.147-2.146a.5.5 0 0 1 0-.708zm-4.292 7a.5.5 0 0 1 0 .708L5.707 13H15.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"
-                  fill="currentColor"></path>
+                  fill="currentColor"
+                />
               </g>
             </svg>
           </n-icon>

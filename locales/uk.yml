@@ -1,31 +1,31 @@
 home:
   categories:
     newestTools: Найновіші інструменти
-    favoriteTools: 'Ваші улюблені інструменти'
-    allTools: 'Усі інструменти'
-  subtitle: 'Зручні інструменти для розробників'
-  toggleMenu: 'Перемикання меню'
+    favoriteTools: Ваші улюблені інструменти
+    allTools: Усі інструменти
+  subtitle: Зручні інструменти для розробників
+  toggleMenu: Перемикання меню
   home: Головна
-  uiLib: 'UI Бібліотека'
-  support: 'Підтримка розробки IT Tools'
-  buyMeACoffee: 'Купи мені каву'
+  uiLib: UI Бібліотека
+  support: Підтримка розробки IT Tools
+  buyMeACoffee: Купи мені каву
   follow:
-    title: 'Вам подобаються інструменти IT?'
-    p1: 'Додайте нам зірку на'
-    githubRepository: 'GitHub-репозиторій IT-Tools'
-    p2: 'або слідкуйте за нами на'
-    twitterAccount: 'Твіттер-акаунт IT-Tools'
-    thankYou: 'Дякуємо!'
+    title: Вам подобаються інструменти IT?
+    p1: Додайте нам зірку на
+    githubRepository: GitHub-репозиторій IT-Tools
+    p2: або слідкуйте за нами на
+    twitterAccount: Твіттер-акаунт IT-Tools
+    thankYou: Дякуємо!
   nav:
-    github: 'GitHub-репозиторій'
-    githubRepository: 'GitHub-репозиторій IT-Tools'
-    twitter: 'Твіттер'
-    twitterAccount: 'Твіттер-акаунт IT-Tools'
-    about: 'Про IT-Tools'
-    aboutLabel: 'Про нас'
-    darkMode: 'Темний режим'
-    lightMode: 'Світлий режим'
-    mode: 'Перемикання темного/світлого режиму'
+    github: GitHub-репозиторій
+    githubRepository: GitHub-репозиторій IT-Tools
+    twitter: Твіттер
+    twitterAccount: Твіттер-акаунт IT-Tools
+    about: Про IT-Tools
+    aboutLabel: Про нас
+    darkMode: Темний режим
+    lightMode: Світлий режим
+    mode: Перемикання темного/світлого режиму
 about:
   content: >
     # Про IT-Tools
@@ -45,24 +45,24 @@ about:
     А якщо ви знайшли баг або щось не працює, як очікувалося, будь ласка, подайте звіт про баг в [розділі проблем](https://github.com/CorentinTh/it-tools/issues/new/choose) у репозиторії GitHub.
 
 404:
-  notFound: '404 Сторінка не знайдена'
+  notFound: 404 Сторінка не знайдена
   sorry: 'Вибачте, ця сторінка, схоже, не існує'
   maybe: 'Можливо, кеш робить хитрощі, спробуйте примусово оновити сторінку?'
-  backHome: 'Повернутися на головну'
+  backHome: Повернутися на головну
 favoriteButton:
-  remove: 'Вилучити з обраних'
-  add: 'Додати до обраних'
+  remove: Вилучити з обраних
+  add: Додати до обраних
 toolCard:
   new: Новий
 search:
   label: Пошук
 tools:
   categories:
-    favorite-tools: 'Ваші улюблені інструменти'
+    favorite-tools: Ваші улюблені інструменти
     crypto: Крипта
     converter: Конвертер
     web: Веб
-    images and videos: 'Зображення та відео'
+    images and videos: Зображення та відео
     development: Розробка
     network: Мережа
     math: Математика
