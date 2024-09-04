@@ -1,31 +1,31 @@
 home:
   categories:
     newestTools: Nuevas herramientas
-    favoriteTools: 'Tus herramientas favoritas'
-    allTools: 'Todas las herramientas'
-  subtitle: 'Herramientas practicas para desarrolladores'
-  toggleMenu: 'Toggle menu'
+    favoriteTools: Tus herramientas favoritas
+    allTools: Todas las herramientas
+  subtitle: Herramientas practicas para desarrolladores
+  toggleMenu: Toggle menu
   home: Home
-  uiLib: 'UI Lib'
-  support: 'Apoyar el desarrollo de IT-Tools'
-  buyMeACoffee: 'Buy me a coffee'
+  uiLib: UI Lib
+  support: Apoyar el desarrollo de IT-Tools
+  buyMeACoffee: Buy me a coffee
   follow:
-    title: 'Te gustan las it-tools?'
-    p1: 'Danos una estrella en'
-    githubRepository: 'Repositorio de IT-Tools en GitHub'
-    p2: 'o síguenos en'
-    twitterAccount: 'Cuenta de twitter de IT-Tools'
-    thankYou: 'Muchas gracias!'
+    title: Te gustan las it-tools?
+    p1: Danos una estrella en
+    githubRepository: Repositorio de IT-Tools en GitHub
+    p2: o síguenos en
+    twitterAccount: Cuenta de twitter de IT-Tools
+    thankYou: Muchas gracias!
   nav:
-    github: 'Repositorio en github'
-    githubRepository: 'IT-Tools GitHub repository'
-    twitter: 'Cuenta de Twitter'
-    twitterAccount: 'Cuenta de twitter de IT Tools'
-    about: 'Sobre  IT-Tools'
-    aboutLabel: 'Sobre'
-    darkMode: 'Modo obscuro'
-    lightMode: 'Modo claro'
-    mode: 'Alternar modo oscuro/claro'
+    github: Repositorio en github
+    githubRepository: IT-Tools GitHub repository
+    twitter: Cuenta de Twitter
+    twitterAccount: Cuenta de twitter de IT Tools
+    about: Sobre  IT-Tools
+    aboutLabel: Sobre
+    darkMode: Modo obscuro
+    lightMode: Modo claro
+    mode: Alternar modo oscuro/claro
 about:
   content: >
     # Sobre IT-Tools
@@ -39,26 +39,26 @@ about:
     IT Tools está creado en Vue.js (Vue 3) con la biblioteca de componentes Naive UI y Vercel lo aloja y lo implementa continuamente. En algunas herramientas se utilizan bibliotecas de código abierto de terceros; puede encontrar la lista completa en [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) archivo del repositorio.
 
     ## ¿Encontraste un error? ¿Falta una herramienta?
-    
+
     Si necesita una herramienta que actualmente no está presente aquí y cree que puede ser útil, puede enviar una solicitud de función en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
 
     Y si encontró un error o algo no funciona como se esperaba, presente un reporte de error en el [issues section](https://github.com/CorentinTh/it-tools/issues/new/choose) en el repositorio de GitHub.
 
 404:
-  notFound: '404 Not Found'
+  notFound: 404 Not Found
   sorry: 'Lo sentimos, esta página no parece existir'
   maybe: 'Tal vez el caché esté haciendo cosas raras, ¿probamos a refrescar forzosamente?'
-  backHome: 'Back home'
+  backHome: Back home
 favoriteButton:
-  remove: 'Quitar de favoritos'
-  add: 'Añadir a favoritos'
+  remove: Quitar de favoritos
+  add: Añadir a favoritos
 toolCard:
   new: Nuevo
 search:
   label: Buscar
 tools:
   categories:
-    favorite-tools: 'Tus herramientas favoritas'
+    favorite-tools: Tus herramientas favoritas
     crypto: Crypto
     converter: Converter
     web: Web

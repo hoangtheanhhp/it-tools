@@ -1,31 +1,31 @@
 home:
   categories:
     newestTools: Công cụ mới nhất
-    favoriteTools: 'Công cụ yêu thích của bạn'
-    allTools: 'Tất cả công cụ'
-  subtitle: 'Công cụ cho nhà phát triển.'
-  toggleMenu: 'Chuyển đổi menu'
+    favoriteTools: Công cụ yêu thích của bạn
+    allTools: Tất cả công cụ
+  subtitle: Công cụ cho nhà phát triển.
+  toggleMenu: Chuyển đổi menu
   home: Trang chủ
-  uiLib: 'Thư viện UI'
-  support: 'Hỗ trợ phát triển IT Tools'
-  buyMeACoffee: 'Ủng hộ tác giả'
+  uiLib: Thư viện UI
+  support: Hỗ trợ phát triển IT Tools
+  buyMeACoffee: Ủng hộ tác giả
   follow:
-    title: 'Bạn thích IT-tools?'
-    p1: 'Hãy cho chúng tôi một ngôi sao trên'
-    githubRepository: 'Kho GitHub IT-Tools'
-    p2: 'hoặc theo dõi chúng tôi trên'
-    twitterAccount: 'Tài khoản Twitter IT-Tools'
-    thankYou: 'Cảm ơn bạn!'
+    title: Bạn thích IT-tools?
+    p1: Hãy cho chúng tôi một ngôi sao trên
+    githubRepository: Kho GitHub IT-Tools
+    p2: hoặc theo dõi chúng tôi trên
+    twitterAccount: Tài khoản Twitter IT-Tools
+    thankYou: Cảm ơn bạn!
   nav:
-    github: 'Kho GitHub'
-    githubRepository: 'Kho GitHub IT-Tools'
-    twitter: 'Tài khoản Twitter'
-    twitterAccount: 'Tài khoản Twitter IT Tools'
-    about: 'Về IT-Tools'
-    aboutLabel: 'Giới thiệu'
-    darkMode: 'Chế độ tối'
-    lightMode: 'Chế độ sáng'
-    mode: 'Chuyển đổi chế độ tối/sáng'
+    github: Kho GitHub
+    githubRepository: Kho GitHub IT-Tools
+    twitter: Tài khoản Twitter
+    twitterAccount: Tài khoản Twitter IT Tools
+    about: Về IT-Tools
+    aboutLabel: Giới thiệu
+    darkMode: Chế độ tối
+    lightMode: Chế độ sáng
+    mode: Chuyển đổi chế độ tối/sáng
 about:
   content: >
     # Về IT-Tools
@@ -45,20 +45,20 @@ about:
     Và nếu bạn phát hiện ra một lỗi, hoặc điều gì đó không hoạt động như mong đợi, xin vui lòng gửi báo cáo lỗi trong [phần vấn đề](https://github.com/CorentinTh/it-tools/issues/new/choose) trong kho GitHub.
 
 404:
-  notFound: '404 Không Tìm Thấy'
+  notFound: 404 Không Tìm Thấy
   sorry: 'Xin lỗi, trang này dường như không tồn tại'
   maybe: 'Lỗi xảy ra có thể do bộ nhớ đệm, hãy (CTRL + F5) để tải lại trang?'
-  backHome: 'Quay về trang chủ'
+  backHome: Quay về trang chủ
 favoriteButton:
-  remove: 'Xóa khỏi mục yêu thích'
-  add: 'Thêm vào mục yêu thích'
+  remove: Xóa khỏi mục yêu thích
+  add: Thêm vào mục yêu thích
 toolCard:
   new: Mới
 search:
   label: Tìm kiếm
 tools:
   categories:
-    favorite-tools: 'Công cụ yêu thích của bạn'
+    favorite-tools: Công cụ yêu thích của bạn
     crypto: Mã hóa
     converter: Chuyển đổi
     web: Web
@@ -87,7 +87,7 @@ tools:
     numbers: Số (123...)
     symbols: Ký tự đặc biệt (!-;...)
     length: Độ dài
-    tokenPlaceholder: 'Mã thông báo...'
+    tokenPlaceholder: Mã thông báo...
     copied: Mã thông báo đã được sao chép vào clipboard
     button:
       copy: Sao chép
