@@ -380,3 +380,7 @@ tools:
   text-to-binary:
     title: Chuyển đổi văn bản thành nhị phân ASCII
     description: Chuyển đổi văn bản thành biểu diễn nhị phân ASCII của nó và ngược lại.
+
+  var-sao-ke:
+    title: Check var sao kê ủng hộ đồng bào miền Bắc đợt lũ 2024
+    description: Check var sao kê ủng hộ đồng bào miền Bắc đợt lũ 2024
