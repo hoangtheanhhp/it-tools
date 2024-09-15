@@ -190,7 +190,7 @@ export const toolsByCategory: ToolCategory[] = [
     components: [phoneParserAndFormatter, ibanValidatorAndParser],
   },
   {
-    name: 'Other',
+    name: 'Others',
     components: [pdfTools, varSaoKe],
   },
 ];
