@@ -194,12 +194,17 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: 'Other',
     components: [pdfTools],
 =======
     name: 'Others',
     components: [varSaoKe],
 >>>>>>> 5f173e7 (var sao ke)
+=======
+    name: 'Others',
+    components: [pdfTools, varSaoKe],
+>>>>>>> c13001a (var sao ke)
   },
 ];
 
