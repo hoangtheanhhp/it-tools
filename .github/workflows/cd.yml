@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/it-tools:staging
+            docker pull ${{ vars.DOCKERHUB_USERNAME }}/it-tools:staging
             docker stop it-tools || true
             docker rm it-tools || true
-            docker run -d --name it-tools -p 8009:3000 ${{ secrets.DOCKERHUB_USERNAME }}/it-tools:staging
+            docker run -d --name it-tools -p 8009:3000 ${{ vars.DOCKERHUB_USERNAME }}/it-tools:staging
