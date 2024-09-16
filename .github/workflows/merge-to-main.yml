@@ -3,7 +3,7 @@ name: Build and Push Docker Image to GHCR on Staging
 on:
   push:
     branches:
-      - staging
+      - main
 
 jobs:
   ci:
@@ -62,8 +62,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          # platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/it-tools:staging
-            ${{ vars.DOCKERHUB_USERNAME }}/it-tools:staging
+            ghcr.io/${{ github.repository }}/it-tools:main
+            ${{ vars.DOCKERHUB_USERNAME }}/it-tools:main
