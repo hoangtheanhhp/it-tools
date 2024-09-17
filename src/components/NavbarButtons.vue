@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { BrandGithub, BrandTwitter, InfoCircle, Moon, Sun } from '@vicons/tabler';
+import { BrandGithub, InfoCircle, Moon, Sun } from '@vicons/tabler';
+import { IconBrandX } from '@tabler/icons-vue';
 import { useStyleStore } from '@/stores/style.store';
 
 const styleStore = useStyleStore();
@@ -11,7 +12,7 @@ const { isDarkTheme } = toRefs(styleStore);
     <c-button
       circle
       variant="text"
-      href="https://github.com/CorentinTh/it-tools"
+      href="https://github.com/hoangtheanhhp/it-tools"
       target="_blank"
       rel="noopener noreferrer"
       :aria-label="$t('home.nav.githubRepository')"
@@ -24,17 +25,24 @@ const { isDarkTheme } = toRefs(styleStore);
     <c-button
       circle
       variant="text"
-      href="https://twitter.com/ittoolsdottech"
+      href="https://x.com/hoangtheanhhp"
       rel="noopener"
       target="_blank"
       :aria-label="$t('home.nav.twitterAccount')"
     >
-      <n-icon size="25" :component="BrandTwitter" />
+      <n-icon size="25" :component="IconBrandX" />
     </c-button>
   </c-tooltip>
 
-  <c-tooltip :tooltip="$t('home.nav.about')" position="bottom">
-    <c-button circle variant="text" to="/about" :aria-label="$t('home.nav.aboutLabel')">
+  <c-tooltip :tooltip="$t('home.nav.chitmo')" position="bottom">
+    <c-button
+      circle
+      variant="text"
+      href="https://chitmo.com"
+      rel="noopener"
+      target="_blank"
+      :aria-label="$t('home.nav.twitterAccount')"
+    >
       <n-icon size="25" :component="InfoCircle" />
     </c-button>
   </c-tooltip>

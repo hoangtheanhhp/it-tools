@@ -3,11 +3,11 @@
   "version": "2024.5.13-a0bc346",
   "packageManager": "pnpm@8.15.3",
   "description": "Collection of handy online tools for developers, with great UX. ",
-  "author": "Corentin Th <corentin.thomasset74+it-tools@gmail.com> (https://github.com/CorentinTh)",
+  "author": "Corentin Th <corentin.thomasset74+it-tools@gmail.com> (https://github.com/hoangtheanhhp)",
   "license": "GNU GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CorentinTh/it-tools"
+    "url": "https://github.com/hoangtheanhhp/it-tools"
   },
   "keywords": [
     "productivity",
@@ -39,6 +39,7 @@
     "@it-tools/bip39": "^0.0.4",
     "@it-tools/oggen": "^1.3.0",
     "@sindresorhus/slugify": "^2.2.1",
+    "@tabler/icons-vue": "^3.14.0",
     "@tiptap/pm": "2.1.6",
     "@tiptap/starter-kit": "2.1.6",
     "@tiptap/vue-3": "2.0.3",
