@@ -86,6 +86,7 @@ import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
 import { tool as pdfTools } from './pdf-tools';
+import { tool as varSaoKe } from './var-sao-ke';
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -190,7 +191,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Other',
-    components: [pdfTools],
+    components: [pdfTools, varSaoKe],
   },
 ];
 
