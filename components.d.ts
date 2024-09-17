@@ -89,9 +89,25 @@ declare module 'vue' {
     HtmlWysiwygEditor: typeof import('./src/tools/html-wysiwyg-editor/html-wysiwyg-editor.vue')['default']
     HttpStatusCodes: typeof import('./src/tools/http-status-codes/http-status-codes.vue')['default']
     IbanValidatorAndParser: typeof import('./src/tools/iban-validator-and-parser/iban-validator-and-parser.vue')['default']
+    'IconMdi:brushVariant': typeof import('~icons/mdi/brush-variant')['default']
+    'IconMdi:kettleSteamOutline': typeof import('~icons/mdi/kettle-steam-outline')['default']
+    IconMdiCamera: typeof import('~icons/mdi/camera')['default']
+    IconMdiChevronDown: typeof import('~icons/mdi/chevron-down')['default']
+    IconMdiChevronRight: typeof import('~icons/mdi/chevron-right')['default']
     IconMdiClose: typeof import('~icons/mdi/close')['default']
+    IconMdiContentCopy: typeof import('~icons/mdi/content-copy')['default']
+    IconMdiDeleteOutline: typeof import('~icons/mdi/delete-outline')['default']
+    IconMdiDownload: typeof import('~icons/mdi/download')['default']
     IconMdiEye: typeof import('~icons/mdi/eye')['default']
     IconMdiEyeOff: typeof import('~icons/mdi/eye-off')['default']
+    IconMdiHeart: typeof import('~icons/mdi/heart')['default']
+    IconMdiPause: typeof import('~icons/mdi/pause')['default']
+    IconMdiPlay: typeof import('~icons/mdi/play')['default']
+    IconMdiRecord: typeof import('~icons/mdi/record')['default']
+    IconMdiSearch: typeof import('~icons/mdi/search')['default']
+    IconMdiTranslate: typeof import('~icons/mdi/translate')['default']
+    IconMdiTriangleDown: typeof import('~icons/mdi/triangle-down')['default']
+    IconMdiVideo: typeof import('~icons/mdi/video')['default']
     InputCopyable: typeof import('./src/components/InputCopyable.vue')['default']
     IntegerBaseConverter: typeof import('./src/tools/integer-base-converter/integer-base-converter.vue')['default']
     Ipv4AddressConverter: typeof import('./src/tools/ipv4-address-converter/ipv4-address-converter.vue')['default']
@@ -121,6 +137,7 @@ declare module 'vue' {
     MetaTagGenerator: typeof import('./src/tools/meta-tag-generator/meta-tag-generator.vue')['default']
     MimeTypes: typeof import('./src/tools/mime-types/mime-types.vue')['default']
     NavbarButtons: typeof import('./src/components/NavbarButtons.vue')['default']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     NCheckbox: typeof import('naive-ui')['NCheckbox']
@@ -158,12 +175,27 @@ declare module 'vue' {
     NInputGroup: typeof import('naive-ui')['NInputGroup']
     NInputGroupLabel: typeof import('naive-ui')['NInputGroupLabel']
     NInput: typeof import('naive-ui')['NInput']
+=======
+    NButton: typeof import('naive-ui')['NButton']
+    NCollapseTransition: typeof import('naive-ui')['NCollapseTransition']
+    NConfigProvider: typeof import('naive-ui')['NConfigProvider']
+    NDivider: typeof import('naive-ui')['NDivider']
+    NEllipsis: typeof import('naive-ui')['NEllipsis']
+    NForm: typeof import('naive-ui')['NForm']
+    NFormItem: typeof import('naive-ui')['NFormItem']
+    NH1: typeof import('naive-ui')['NH1']
+    NH3: typeof import('naive-ui')['NH3']
+    NIcon: typeof import('naive-ui')['NIcon']
+    NInputGroup: typeof import('naive-ui')['NInputGroup']
+    NInputGroupLabel: typeof import('naive-ui')['NInputGroupLabel']
+>>>>>>> f979713 (change info)
     NInputNumber: typeof import('naive-ui')['NInputNumber']
     NLayout: typeof import('naive-ui')['NLayout']
     NLayoutSider: typeof import('naive-ui')['NLayoutSider']
     NMenu: typeof import('naive-ui')['NMenu']
     NSlider: typeof import('naive-ui')['NSlider']
     NSwitch: typeof import('naive-ui')['NSwitch']
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> aeb4dfd (change info)
 =======
@@ -174,6 +206,8 @@ declare module 'vue' {
 >>>>>>> a5761d9 (var sao ke)
 =======
 >>>>>>> 6663653 (sao ke)
+=======
+>>>>>>> f979713 (change info)
     NumeronymGenerator: typeof import('./src/tools/numeronym-generator/numeronym-generator.vue')['default']
     OtpCodeGeneratorAndValidator: typeof import('./src/tools/otp-code-generator-and-validator/otp-code-generator-and-validator.vue')['default']
     PasswordStrengthAnalyser: typeof import('./src/tools/password-strength-analyser/password-strength-analyser.vue')['default']
