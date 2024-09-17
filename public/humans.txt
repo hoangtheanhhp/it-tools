@@ -1,4 +1,4 @@
 /* TEAM */
-Developer: Corentin Thomasset
-Site: https://github.com/CorentinTh
+Developer: hoangtheanhhp
+Site: https://github.com/hoangtheanhhp
 Twitter: @cthmsst
