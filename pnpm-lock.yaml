@@ -6526,7 +6526,7 @@ snapshots:
 
   '@tabler/icons@3.14.0': {}
 
-  '@tiptap/core@2.6.6(@tiptap/pm@2.1.6)':
+  '@tiptap/core@2.1.12(@tiptap/pm@2.1.6)':
     dependencies:
       '@tiptap/pm': 2.1.6
 
