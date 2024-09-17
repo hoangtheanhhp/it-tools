@@ -8,9 +8,9 @@ Useful tools for developer and people working in IT. [Have a look !](https://it-
 
 ## Functionalities and roadmap
 
-Please check the [issues](https://github.com/CorentinTh/it-tools/issues) to see if some feature listed to be implemented.
+Please check the [issues](https://github.com/hoangtheanhhp/it-tools/issues) to see if some feature listed to be implemented.
 
-You have an idea of a tool? Submit a [feature request](https://github.com/CorentinTh/it-tools/issues/new/choose)!
+You have an idea of a tool? Submit a [feature request](https://github.com/hoangtheanhhp/it-tools/issues/new/choose)!
 
 ## Self host
 
@@ -113,11 +113,19 @@ It will create a directory in `src/tools` with the correct files, and a the impo
 
 Big thanks to all the people who have already contributed!
 
+<<<<<<< HEAD
 [![contributors](https://contrib.rocks/image?repo=corentinth/it-tools&refresh=1)](https://github.com/corentinth/it-tools/graphs/contributors)
 
 ## Credits
 
 Coded with ❤️ by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
+=======
+[![contributors](https://contrib.rocks/image?repo=corentinth/it-tools)](https://github.com/hoangtheanhhp/it-tools/graphs/contributors)
+
+## Credits
+
+Coded with ❤️ by [hoangtheanhhp](//corentin-thomasset.fr).
+>>>>>>> aeb4dfd (change info)
 
 This project is continuously deployed using [vercel.com](https://vercel.com).
 

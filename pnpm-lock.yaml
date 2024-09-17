@@ -207,6 +207,7 @@ dependencies:
     specifier: ^2.2.1
     version: 2.2.1
 
+<<<<<<< HEAD
 devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.41.0
@@ -337,6 +338,338 @@ devDependencies:
   zx:
     specifier: ^7.2.1
     version: 7.2.1
+=======
+  .:
+    dependencies:
+      '@it-tools/bip39':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@it-tools/oggen':
+        specifier: ^1.3.0
+        version: 1.3.0
+      '@sindresorhus/slugify':
+        specifier: ^2.2.1
+        version: 2.2.1
+      '@tabler/icons-vue':
+        specifier: ^3.14.0
+        version: 3.14.0(vue@3.3.4)
+      '@tiptap/pm':
+        specifier: 2.1.6
+        version: 2.1.6
+      '@tiptap/starter-kit':
+        specifier: 2.1.6
+        version: 2.1.6(@tiptap/pm@2.1.6)
+      '@tiptap/vue-3':
+        specifier: 2.0.3
+        version: 2.0.3(@tiptap/core@2.1.12(@tiptap/pm@2.1.6))(@tiptap/pm@2.1.6)(vue@3.3.4)
+      '@types/figlet':
+        specifier: ^1.5.8
+        version: 1.5.8
+      '@types/markdown-it':
+        specifier: ^13.0.7
+        version: 13.0.9
+      '@vicons/material':
+        specifier: ^0.12.0
+        version: 0.12.0
+      '@vicons/tabler':
+        specifier: ^0.12.0
+        version: 0.12.0
+      '@vueuse/core':
+        specifier: ^10.3.0
+        version: 10.3.0(vue@3.3.4)
+      '@vueuse/head':
+        specifier: ^1.0.0
+        version: 1.0.0(vue@3.3.4)
+      '@vueuse/router':
+        specifier: ^10.0.0
+        version: 10.0.0(vue-router@4.1.6(vue@3.3.4))(vue@3.3.4)
+      bcryptjs:
+        specifier: ^2.4.3
+        version: 2.4.3
+      change-case:
+        specifier: ^4.1.2
+        version: 4.1.2
+      colord:
+        specifier: ^2.9.3
+        version: 2.9.3
+      composerize-ts:
+        specifier: ^0.6.2
+        version: 0.6.2
+      country-code-lookup:
+        specifier: ^0.1.0
+        version: 0.1.0
+      cron-validator:
+        specifier: ^1.3.1
+        version: 1.3.1
+      cronstrue:
+        specifier: ^2.26.0
+        version: 2.26.0
+      crypto-js:
+        specifier: ^4.1.1
+        version: 4.1.1
+      date-fns:
+        specifier: ^2.29.3
+        version: 2.29.3
+      dompurify:
+        specifier: ^3.0.6
+        version: 3.0.6
+      email-normalizer:
+        specifier: ^1.0.0
+        version: 1.0.0
+      emojilib:
+        specifier: ^3.0.10
+        version: 3.0.10
+      figlet:
+        specifier: ^1.7.0
+        version: 1.7.0
+      figue:
+        specifier: ^1.2.0
+        version: 1.2.0
+      fuse.js:
+        specifier: ^6.6.2
+        version: 6.6.2
+      highlight.js:
+        specifier: ^11.7.0
+        version: 11.7.0
+      iarna-toml-esm:
+        specifier: ^3.0.5
+        version: 3.0.5
+      ibantools:
+        specifier: ^4.3.3
+        version: 4.3.3
+      js-base64:
+        specifier: ^3.7.6
+        version: 3.7.7
+      json5:
+        specifier: ^2.2.3
+        version: 2.2.3
+      jwt-decode:
+        specifier: ^3.1.2
+        version: 3.1.2
+      libphonenumber-js:
+        specifier: ^1.10.28
+        version: 1.10.28
+      lodash:
+        specifier: ^4.17.21
+        version: 4.17.21
+      markdown-it:
+        specifier: ^14.0.0
+        version: 14.1.0
+      marked:
+        specifier: ^10.0.0
+        version: 10.0.0
+      mathjs:
+        specifier: ^11.9.1
+        version: 11.9.1
+      mime-types:
+        specifier: ^2.1.35
+        version: 2.1.35
+      monaco-editor:
+        specifier: ^0.43.0
+        version: 0.43.0
+      naive-ui:
+        specifier: ^2.35.0
+        version: 2.35.0(vue@3.3.4)
+      netmask:
+        specifier: ^2.0.2
+        version: 2.0.2
+      node-forge:
+        specifier: ^1.3.1
+        version: 1.3.1
+      oui-data:
+        specifier: ^1.0.10
+        version: 1.0.10
+      pdf-signature-reader:
+        specifier: ^1.4.2
+        version: 1.4.2
+      pinia:
+        specifier: ^2.0.34
+        version: 2.0.34(typescript@5.2.2)(vue@3.3.4)
+      plausible-tracker:
+        specifier: ^0.3.8
+        version: 0.3.8
+      qrcode:
+        specifier: ^1.5.1
+        version: 1.5.1
+      sql-formatter:
+        specifier: ^13.0.0
+        version: 13.0.0
+      ua-parser-js:
+        specifier: ^1.0.35
+        version: 1.0.35
+      ulid:
+        specifier: ^2.3.0
+        version: 2.3.0
+      unicode-emoji-json:
+        specifier: ^0.4.0
+        version: 0.4.0
+      unplugin-auto-import:
+        specifier: ^0.16.4
+        version: 0.16.4(@vueuse/core@10.3.0(vue@3.3.4))(rollup@2.79.1)
+      uuid:
+        specifier: ^9.0.0
+        version: 9.0.0
+      vue:
+        specifier: ^3.3.4
+        version: 3.3.4
+      vue-i18n:
+        specifier: ^9.9.1
+        version: 9.9.1(vue@3.3.4)
+      vue-router:
+        specifier: ^4.1.6
+        version: 4.1.6(vue@3.3.4)
+      vue-tsc:
+        specifier: ^1.8.1
+        version: 1.8.1(typescript@5.2.2)
+      wanakana:
+        specifier: ^5.3.1
+        version: 5.3.1
+      xml-formatter:
+        specifier: ^3.3.2
+        version: 3.3.2
+      xml-js:
+        specifier: ^1.6.11
+        version: 1.6.11
+      yaml:
+        specifier: ^2.2.1
+        version: 2.2.1
+    devDependencies:
+      '@antfu/eslint-config':
+        specifier: ^0.41.0
+        version: 0.41.0(eslint@8.47.0)(typescript@5.2.2)
+      '@iconify-json/mdi':
+        specifier: ^1.1.50
+        version: 1.1.50
+      '@intlify/unplugin-vue-i18n':
+        specifier: ^2.0.0
+        version: 2.0.0(rollup@2.79.1)(vue-i18n@9.9.1(vue@3.3.4))
+      '@playwright/test':
+        specifier: ^1.32.3
+        version: 1.32.3
+      '@rushstack/eslint-patch':
+        specifier: ^1.2.0
+        version: 1.2.0
+      '@tsconfig/node18':
+        specifier: ^18.2.0
+        version: 18.2.0
+      '@types/bcryptjs':
+        specifier: ^2.4.2
+        version: 2.4.2
+      '@types/crypto-js':
+        specifier: ^4.1.1
+        version: 4.1.1
+      '@types/dompurify':
+        specifier: ^3.0.5
+        version: 3.0.5
+      '@types/jsdom':
+        specifier: ^21.0.0
+        version: 21.1.0
+      '@types/lodash':
+        specifier: ^4.14.192
+        version: 4.14.192
+      '@types/mime-types':
+        specifier: ^2.1.1
+        version: 2.1.1
+      '@types/netmask':
+        specifier: ^2.0.0
+        version: 2.0.0
+      '@types/node':
+        specifier: ^18.15.11
+        version: 18.15.11
+      '@types/node-forge':
+        specifier: ^1.3.2
+        version: 1.3.2
+      '@types/qrcode':
+        specifier: ^1.5.0
+        version: 1.5.0
+      '@types/ua-parser-js':
+        specifier: ^0.7.36
+        version: 0.7.36
+      '@types/uuid':
+        specifier: ^9.0.0
+        version: 9.0.0
+      '@unocss/eslint-config':
+        specifier: ^0.57.0
+        version: 0.57.1(eslint@8.47.0)(typescript@5.2.2)
+      '@vitejs/plugin-vue':
+        specifier: ^4.3.2
+        version: 4.3.2(vite@4.4.9(@types/node@18.15.11)(less@4.1.3)(terser@5.24.0))(vue@3.3.4)
+      '@vitejs/plugin-vue-jsx':
+        specifier: ^3.0.2
+        version: 3.0.2(vite@4.4.9(@types/node@18.15.11)(less@4.1.3)(terser@5.24.0))(vue@3.3.4)
+      '@vue/compiler-sfc':
+        specifier: ^3.2.47
+        version: 3.2.47
+      '@vue/runtime-dom':
+        specifier: ^3.3.4
+        version: 3.3.4
+      '@vue/test-utils':
+        specifier: ^2.3.2
+        version: 2.3.2(vue@3.3.4)
+      '@vue/tsconfig':
+        specifier: ^0.4.0
+        version: 0.4.0
+      consola:
+        specifier: ^3.0.2
+        version: 3.0.2
+      eslint:
+        specifier: ^8.47.0
+        version: 8.47.0
+      eslint-config-prettier:
+        specifier: ^9.1.0
+        version: 9.1.0(eslint@8.47.0)
+      eslint-plugin-prettier:
+        specifier: ^5.2.1
+        version: 5.2.1(eslint-config-prettier@9.1.0(eslint@8.47.0))(eslint@8.47.0)(prettier@3.0.0)
+      hygen:
+        specifier: ^6.2.11
+        version: 6.2.11
+      jsdom:
+        specifier: ^22.0.0
+        version: 22.0.0
+      less:
+        specifier: ^4.1.3
+        version: 4.1.3
+      prettier:
+        specifier: ^3.0.0
+        version: 3.0.0
+      typescript:
+        specifier: ~5.2.0
+        version: 5.2.2
+      unocss:
+        specifier: ^0.57.0
+        version: 0.57.1(postcss@8.4.31)(rollup@2.79.1)(vite@4.4.9(@types/node@18.15.11)(less@4.1.3)(terser@5.24.0))
+      unocss-preset-scrollbar:
+        specifier: ^0.2.1
+        version: 0.2.1(unocss@0.57.1(postcss@8.4.31)(rollup@2.79.1)(vite@4.4.9(@types/node@18.15.11)(less@4.1.3)(terser@5.24.0)))
+      unplugin-icons:
+        specifier: ^0.17.0
+        version: 0.17.0(@vue/compiler-sfc@3.2.47)(vue-template-compiler@2.7.14)
+      unplugin-vue-components:
+        specifier: ^0.25.0
+        version: 0.25.0(@babel/parser@7.23.0)(rollup@2.79.1)(vue@3.3.4)
+      vite:
+        specifier: ^4.4.9
+        version: 4.4.9(@types/node@18.15.11)(less@4.1.3)(terser@5.24.0)
+      vite-plugin-pwa:
+        specifier: ^0.16.0
+        version: 0.16.0(vite@4.4.9(@types/node@18.15.11)(less@4.1.3)(terser@5.24.0))(workbox-build@7.0.0)(workbox-window@7.0.0)
+      vite-plugin-vue-markdown:
+        specifier: ^0.23.5
+        version: 0.23.5(rollup@2.79.1)(vite@4.4.9(@types/node@18.15.11)(less@4.1.3)(terser@5.24.0))
+      vite-svg-loader:
+        specifier: ^4.0.0
+        version: 4.0.0
+      vitest:
+        specifier: ^0.34.0
+        version: 0.34.0(jsdom@22.0.0)(less@4.1.3)(terser@5.24.0)
+      workbox-window:
+        specifier: ^7.0.0
+        version: 7.0.0
+      zx:
+        specifier: ^7.2.1
+        version: 7.2.1
+>>>>>>> aeb4dfd (change info)
 
 packages:
 
@@ -1494,6 +1827,14 @@ packages:
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
+
+  '@tabler/icons-vue@3.14.0':
+    resolution: {integrity: sha512-nN9HpobBj4Tb3piBgUZW10HqyKoniMR3jzbF90wQ7FTfBXi4HqYeOIzJIiSh2izCn1/i5yUuCQrh4FmVzzXYCg==}
+    peerDependencies:
+      vue: '>=3.0.1'
+
+  '@tabler/icons@3.14.0':
+    resolution: {integrity: sha512-OakKjK1kuDWKoNwdnHHVMt11kTZAC10iZpN/8o/CSYdeBH7S3v5n8IyqAYynFxLI8yBGTyBvljtvWdmWh57zSg==}
 
   '@tiptap/core@2.1.12':
     resolution: {integrity: sha512-ZGc3xrBJA9KY8kln5AYTj8y+GDrKxi7u95xIl2eccrqTY5CQeRu6HRNM1yT4mAjuSaG9jmazyjGRlQuhyxCKxQ==}
@@ -6784,6 +7125,7 @@ snapshots:
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.10
 
+<<<<<<< HEAD
   /@svgdotjs/svg.js@3.2.4:
     resolution: {integrity: sha512-BjJ/7vWNowlX3Z8O4ywT58DqbNRyYlkk6Yz/D13aB7hGmfQTvGX4Tkgtm/ApYlu9M7lCQi15xUEidqMUmdMYwg==}
     dev: false
@@ -6792,6 +7134,16 @@ snapshots:
     resolution: {integrity: sha512-kymV0q+bFNqU6bmdlnfK9ru88xFydYIs+jfe0160bLTmcq94ZxcLfXO5JLMq5kjntUSNb4fBvGk0mXB7aDCYnA==}
     peerDependencies:
       vue: '>=3.0.1'
+=======
+  '@tabler/icons-vue@3.14.0(vue@3.3.4)':
+    dependencies:
+      '@tabler/icons': 3.14.0
+      vue: 3.3.4
+
+  '@tabler/icons@3.14.0': {}
+
+  '@tiptap/core@2.1.12(@tiptap/pm@2.1.6)':
+>>>>>>> aeb4dfd (change info)
     dependencies:
       '@tabler/icons': 3.20.0
       vue: 3.3.4

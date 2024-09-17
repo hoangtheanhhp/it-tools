@@ -11,13 +11,13 @@ const processing = ref(false);
 function convertFullwidthToHalfwidth(text: string): string {
   return text.replace(/[\uFF01-\uFF5E]/g, ch =>
     String.fromCharCode(ch.charCodeAt(0) - 0xFEE0),
-  ).replace(/\u3000/g, ' ');
+  ).replace(/\u3000/g, ' '); // Replace full-width space with half-width space
 }
 
 function convertHalfwidthToFullwidth(text: string): string {
   return text.replace(/[!-~]/g, ch =>
     String.fromCharCode(ch.charCodeAt(0) + 0xFEE0),
-  ).replace(/ /g, '\u3000');
+  ).replace(/ /g, '\u3000'); // Replace half-width space with full-width space
 }
 
 function convertHiraganaToKatakana(text: string): string {
