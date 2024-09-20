@@ -85,11 +85,8 @@ import { tool as uuidGenerator } from './uuid-generator';
 import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
-<<<<<<< HEAD
 import { tool as pdfTools } from './pdf-tools';
-=======
 import { tool as varSaoKe } from './var-sao-ke';
->>>>>>> 5f173e7 (var sao ke)
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -193,18 +190,8 @@ export const toolsByCategory: ToolCategory[] = [
     components: [phoneParserAndFormatter, ibanValidatorAndParser],
   },
   {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    name: 'Other',
-    components: [pdfTools],
-=======
-    name: 'Others',
-    components: [varSaoKe],
->>>>>>> 5f173e7 (var sao ke)
-=======
     name: 'Others',
     components: [pdfTools, varSaoKe],
->>>>>>> c13001a (var sao ke)
   },
 ];
 
