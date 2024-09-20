@@ -55,7 +55,7 @@ async function searchTransactions() {
     page: paginationReactive.page.toString(),
   });
 
-  fetch(`${process.env.API_URL}/transaction?${queryParams}`, {
+  fetch(`${process.env.VUE_APP_API_URL}/transaction?${queryParams}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
