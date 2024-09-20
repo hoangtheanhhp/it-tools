@@ -1,4 +1,4 @@
-name: Build and Push Docker Image to GHCR on Staging
+name: Build and Push Docker Image to GHCR on Main
 
 on:
   push:
@@ -64,5 +64,15 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/it-tools:main
-            ${{ vars.DOCKERHUB_USERNAME }}/it-tools:main
+            ghcr.io/${{ github.repository }}/it-tools-app:main
+            ${{ vars.DOCKERHUB_USERNAME }}/it-tools-app:main
+            
+      - name: Build api server and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile.api
+          push: true
+          tags: |
+            ghcr.io/${{ github.repository }}/it-tools-api:main
+            ${{ vars.DOCKERHUB_USERNAME }}/it-tools-api:main

@@ -3,7 +3,7 @@ import { useThemeVars } from 'naive-ui';
 import FavoriteButton from './FavoriteButton.vue';
 import type { Tool } from '@/tools/tools.types';
 
-const props = defineProps<{ tool: Tool & { category: string, externalUrl?: string } }>();
+const props = defineProps<{ tool: Tool & { category: string; externalUrl?: string } }>();
 const { tool } = toRefs(props);
 const theme = useThemeVars();
 </script>
@@ -29,7 +29,7 @@ const theme = useThemeVars();
         </div>
       </div>
 
-      <div class="truncate my-5px text-lg text-black dark:text-white">
+      <div class="my-5px truncate text-lg text-black dark:text-white">
         {{ tool.value.name }}
       </div>
 

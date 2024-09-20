@@ -113,13 +113,6 @@ It will create a directory in `src/tools` with the correct files, and a the impo
 
 Big thanks to all the people who have already contributed!
 
-<<<<<<< HEAD
-[![contributors](https://contrib.rocks/image?repo=corentinth/it-tools&refresh=1)](https://github.com/corentinth/it-tools/graphs/contributors)
-
-## Credits
-
-Coded with ❤️ by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
-=======
 [![contributors](https://contrib.rocks/image?repo=corentinth/it-tools)](https://github.com/hoangtheanhhp/it-tools/graphs/contributors)
 
 ## Credits

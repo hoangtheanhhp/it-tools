@@ -424,3 +424,18 @@ tools:
   text-to-binary:
     title: Text to ASCII binary
     description: Convert text to its ASCII binary representation and vice-versa.
+  var-sao-ke:
+    title: Support for Flood Victims in Northern Vietnam 2024
+    description: Support for Flood Victims in Northern Vietnam 2024
+    amount: Amount
+    date: Date
+    notes: Notes
+    code: Code
+    bank: Bank
+    searchTerm: Search Term
+    enterSearchTerm: Enter Search Term
+    enterBankName: Enter Bank Name
+    enterTransactionCode: Enter Transaction Code
+    enterAmount: Enter Amount
+    search: Search
+    transactionCode: TransactionID

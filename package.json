@@ -22,6 +22,7 @@
   ],
   "scripts": {
     "dev": "vite",
+    "api:start": "ts-node server/server.ts",
     "dev:server": "ts-node server/server.ts",
     "build": "vue-tsc --noEmit && NODE_OPTIONS=--max_old_space_size=4096 vite build",
     "preview": "vite preview --port 5050",
@@ -31,7 +32,7 @@
     "test:e2e:dev": "BASE_URL=http://localhost:5173 NO_WEB_SERVER=true playwright test",
     "coverage": "vitest run --coverage",
     "typecheck": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "lint": "eslint src --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",
+    "lint": "eslint src --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore || eslint server -ext .ts",
     "script:create:tool": "node scripts/create-tool.mjs",
     "script:create:ui": "hygen generator ui-component",
     "release": "node ./scripts/release.mjs"
