@@ -62,8 +62,17 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          # platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/it-tools:staging
-            ${{ vars.DOCKERHUB_USERNAME }}/it-tools:staging
+            ghcr.io/${{ github.repository }}/it-tools-app:staging
+            ${{ vars.DOCKERHUB_USERNAME }}/it-tools-app:staging
+
+      - name: Build api server and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile.api
+          push: true
+          tags: |
+            ghcr.io/${{ github.repository }}/it-tools-api:staging
+            ${{ vars.DOCKERHUB_USERNAME }}/it-tools-api:staging

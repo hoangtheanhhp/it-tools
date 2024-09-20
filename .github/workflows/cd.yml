@@ -1,7 +1,7 @@
 name: Deploy to server
 on:
   workflow_run:
-    workflows: ["Build and Push Docker Image to GHCR on Staging"]
+    workflows: ["Build and Push Docker Image to GHCR on Main"]
     types:
       - completed
 
