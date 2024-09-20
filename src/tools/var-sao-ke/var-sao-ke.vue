@@ -4,7 +4,6 @@ import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
 
-const API_URL = import.meta.env.VITE_API_URL;
 interface Transaction {
   date: Date
   amount: number
@@ -56,7 +55,7 @@ async function searchTransactions() {
     page: paginationReactive.page.toString(),
   });
 
-  fetch(`${API_URL}/api/transaction?${queryParams}`, {
+  fetch(`${process.env.API_URL}/transaction?${queryParams}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
