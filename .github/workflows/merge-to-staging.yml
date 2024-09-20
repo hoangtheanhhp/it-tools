@@ -75,8 +75,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ github.repository }}/it-tools-api:staging
-<<<<<<< HEAD
             ${{ vars.DOCKERHUB_USERNAME }}/it-tools-api:staging
-=======
-            ${{ vars.DOCKERHUB_USERNAME }}/it-tools-api:staging
->>>>>>> 5d00e38 (sao ke)
