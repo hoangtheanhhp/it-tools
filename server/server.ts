@@ -1,6 +1,6 @@
-import { createApp, defineEventHandler, getMethod, getQuery, toNodeListener, use, eventHandler } from 'h3';
-import { PrismaClient } from '@prisma/client';
 import { createServer } from 'http';
+import { createApp, defineEventHandler, getMethod, getQuery, toNodeListener, eventHandler } from 'h3';
+import { PrismaClient } from '@prisma/client';
 
 // Initialize Prisma client
 const prisma = new PrismaClient();
@@ -16,9 +16,8 @@ app.use(eventHandler((event) => {
 
   // Handle preflight (OPTIONS) requests
   if (event.node.req.method === 'OPTIONS') {
-    event.node.res.statusCode = 204;  // No Content
+    event.node.res.statusCode = 204;
     event.node.res.end();
-    return;
   }
 }));
 
@@ -60,7 +59,7 @@ app.use('/api/transaction', defineEventHandler(async (event) => {
 
     // Get total count for pagination
     const totalCount = await prisma.transaction.count({ where: filter });
-    
+
     return {
       transactions,
       totalCount,
