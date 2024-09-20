@@ -96,6 +96,7 @@
     "toReactive": true,
     "toRef": true,
     "toRefs": true,
+    "toValue": true,
     "triggerRef": true,
     "tryOnBeforeMount": true,
     "tryOnBeforeUnmount": true,
@@ -286,6 +287,16 @@
     "watchTriggerable": true,
     "watchWithFilter": true,
     "whenever": true,
-    "toValue": true
+    "ExtractDefaultPropTypes": true,
+    "ExtractPropTypes": true,
+    "ExtractPublicPropTypes": true,
+    "WritableComputedRef": true,
+    "injectLocal": true,
+    "onWatcherCleanup": true,
+    "provideLocal": true,
+    "useClipboardItems": true,
+    "useId": true,
+    "useModel": true,
+    "useTemplateRef": true
   }
 }

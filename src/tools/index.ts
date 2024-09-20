@@ -4,7 +4,7 @@ import { tool as basicAuthGenerator } from './basic-auth-generator';
 import { tool as emailNormalizer } from './email-normalizer';
 
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
-
+import { tool as full2halfConverter } from './fullwidth-halfwidth-converter';
 import { tool as textToUnicode } from './text-to-unicode';
 import { tool as safelinkDecoder } from './safelink-decoder';
 import { tool as xmlToJson } from './xml-to-json';
@@ -85,6 +85,11 @@ import { tool as uuidGenerator } from './uuid-generator';
 import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
+<<<<<<< HEAD
+import { tool as pdfTools } from './pdf-tools';
+=======
+import { tool as varSaoKe } from './var-sao-ke';
+>>>>>>> 5f173e7 (var sao ke)
 
 export const toolsByCategory: ToolCategory[] = [
   {
@@ -114,6 +119,7 @@ export const toolsByCategory: ToolCategory[] = [
       xmlToJson,
       jsonToXml,
       markdownToHtml,
+      full2halfConverter,
     ],
   },
   {
@@ -185,6 +191,20 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Data',
     components: [phoneParserAndFormatter, ibanValidatorAndParser],
+  },
+  {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    name: 'Other',
+    components: [pdfTools],
+=======
+    name: 'Others',
+    components: [varSaoKe],
+>>>>>>> 5f173e7 (var sao ke)
+=======
+    name: 'Others',
+    components: [pdfTools, varSaoKe],
+>>>>>>> c13001a (var sao ke)
   },
 ];
 

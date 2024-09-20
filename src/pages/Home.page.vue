@@ -3,6 +3,7 @@ import { Heart } from '@vicons/tabler';
 import { useHead } from '@vueuse/head';
 import ColoredCard from '../components/ColoredCard.vue';
 import ToolCard from '../components/ToolCard.vue';
+
 import { useToolStore } from '@/tools/tools.store';
 import { config } from '@/config';
 
@@ -19,14 +20,14 @@ const { t } = useI18n();
         <ColoredCard :title="$t('home.follow.title')" :icon="Heart">
           {{ $t('home.follow.p1') }}
           <a
-            href="https://github.com/CorentinTh/it-tools"
+            href="https://github.com/hoangtheanhhp/it-tools"
             rel="noopener"
             target="_blank"
             :aria-label="$t('home.follow.githubRepository')"
           >GitHub</a>
           {{ $t('home.follow.p2') }}
           <a
-            href="https://twitter.com/ittoolsdottech"
+            href="https://x.com/hoangtheanhhp"
             rel="noopener"
             target="_blank"
             :aria-label="$t('home.follow.twitterAccount')"
