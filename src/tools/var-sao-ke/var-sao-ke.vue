@@ -55,7 +55,9 @@ async function searchTransactions() {
     page: paginationReactive.page.toString(),
   });
 
-  fetch(`${process.env.VUE_APP_API_URL}/transaction?${queryParams}`, {
+  const apiUrl = import.meta.env.VITE_API_URL;
+
+  fetch(`${apiUrl}/transaction?${queryParams}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -70,10 +72,6 @@ async function searchTransactions() {
       console.error('Error:', error);
     });
 }
-
-// onMounted(async () => {
-//   transactions.value = await prisma.transaction.findMany();
-// });
 </script>
 
 <template>
