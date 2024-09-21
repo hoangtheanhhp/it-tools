@@ -73,8 +73,7 @@ favoriteButton:
   add: Thêm vào mục yêu thích
 toolCard:
   new: Mới
-search:
-  label: Tìm kiếm
+search: Tìm kiếm
 tools:
   categories:
     favorite-tools: Công cụ yêu thích của bạn
