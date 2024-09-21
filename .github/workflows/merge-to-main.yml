@@ -73,6 +73,8 @@ jobs:
           context: .
           file: ./Dockerfile.api
           push: true
+          build-args: |
+            VITE_API_URL=${{ secrets.API_URL }}
           tags: |
             ghcr.io/${{ github.repository }}/it-tools-api:main
             ${{ vars.DOCKERHUB_USERNAME }}/it-tools-api:main

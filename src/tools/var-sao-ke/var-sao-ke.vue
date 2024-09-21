@@ -56,7 +56,6 @@ async function searchTransactions() {
   });
 
   const apiUrl = import.meta.env.VITE_API_URL;
-
   fetch(`${apiUrl}/transaction?${queryParams}`, {
     method: 'GET',
     headers: {
