@@ -4,7 +4,7 @@ import { tool as basicAuthGenerator } from './basic-auth-generator';
 import { tool as emailNormalizer } from './email-normalizer';
 
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
-import { tool as full2halfConverter } from './fullwidth-halfwidth-converter';
+import { tool as JapaneseConverter } from './japanese-converter';
 import { tool as textToUnicode } from './text-to-unicode';
 import { tool as safelinkDecoder } from './safelink-decoder';
 import { tool as xmlToJson } from './xml-to-json';
@@ -118,7 +118,7 @@ export const toolsByCategory: ToolCategory[] = [
       xmlToJson,
       jsonToXml,
       markdownToHtml,
-      full2halfConverter,
+      JapaneseConverter,
     ],
   },
   {
