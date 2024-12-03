@@ -79,7 +79,6 @@ declare module 'vue' {
     ExternalToolCard: typeof import('./src/components/ExternalToolCard.vue')['default']
     FavoriteButton: typeof import('./src/components/FavoriteButton.vue')['default']
     FormatTransformer: typeof import('./src/components/FormatTransformer.vue')['default']
-    FullwidthHalfwidthConverter: typeof import('./src/tools/fullwidth-halfwidth-converter/fullwidth-halfwidth-converter.vue')['default']
     GitMemo: typeof import('./src/tools/git-memo/git-memo.vue')['default']
     'GitMemo.content': typeof import('./src/tools/git-memo/git-memo.content.md')['default']
     HashText: typeof import('./src/tools/hash-text/hash-text.vue')['default']
@@ -143,45 +142,6 @@ declare module 'vue' {
     MimeTypes: typeof import('./src/tools/mime-types/mime-types.vue')['default']
     NAlert: typeof import('naive-ui')['NAlert']
     NavbarButtons: typeof import('./src/components/NavbarButtons.vue')['default']
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    NCheckbox: typeof import('naive-ui')['NCheckbox']
-=======
-    NButton: typeof import('naive-ui')['NButton']
-<<<<<<< HEAD
->>>>>>> aeb4dfd (change info)
-=======
-    NCard: typeof import('naive-ui')['NCard']
-    NCode: typeof import('naive-ui')['NCode']
->>>>>>> a5761d9 (var sao ke)
-    NCollapseTransition: typeof import('naive-ui')['NCollapseTransition']
-    NConfigProvider: typeof import('naive-ui')['NConfigProvider']
-    NDataTable: typeof import('naive-ui')['NDataTable']
-    NDatePicker: typeof import('naive-ui')['NDatePicker']
-    NDivider: typeof import('naive-ui')['NDivider']
-    NEllipsis: typeof import('naive-ui')['NEllipsis']
-<<<<<<< HEAD
-=======
-    NForm: typeof import('naive-ui')['NForm']
-    NFormItem: typeof import('naive-ui')['NFormItem']
-    NGi: typeof import('naive-ui')['NGi']
-    NGrid: typeof import('naive-ui')['NGrid']
->>>>>>> a5761d9 (var sao ke)
-    NH1: typeof import('naive-ui')['NH1']
-    NH3: typeof import('naive-ui')['NH3']
-    NIcon: typeof import('naive-ui')['NIcon']
-<<<<<<< HEAD
-    NLayout: typeof import('naive-ui')['NLayout']
-    NLayoutSider: typeof import('naive-ui')['NLayoutSider']
-    NMenu: typeof import('naive-ui')['NMenu']
-    NSpace: typeof import('naive-ui')['NSpace']
-    NTable: typeof import('naive-ui')['NTable']
-=======
-    NInputGroup: typeof import('naive-ui')['NInputGroup']
-    NInputGroupLabel: typeof import('naive-ui')['NInputGroupLabel']
-    NInput: typeof import('naive-ui')['NInput']
-=======
     NButton: typeof import('naive-ui')['NButton']
     NCheckbox: typeof import('naive-ui')['NCheckbox']
     NCode: typeof import('naive-ui')['NCode']
@@ -205,7 +165,6 @@ declare module 'vue' {
     NInput: typeof import('naive-ui')['NInput']
     NInputGroup: typeof import('naive-ui')['NInputGroup']
     NInputGroupLabel: typeof import('naive-ui')['NInputGroupLabel']
->>>>>>> f979713 (change info)
     NInputNumber: typeof import('naive-ui')['NInputNumber']
     NLayout: typeof import('naive-ui')['NLayout']
     NLayoutSider: typeof import('naive-ui')['NLayoutSider']
@@ -213,27 +172,12 @@ declare module 'vue' {
     NProgress: typeof import('naive-ui')['NProgress']
     NScrollbar: typeof import('naive-ui')['NScrollbar']
     NSlider: typeof import('naive-ui')['NSlider']
+    NSpace: typeof import('naive-ui')['NSpace']
     NSpin: typeof import('naive-ui')['NSpin']
     NStatistic: typeof import('naive-ui')['NStatistic']
     NSwitch: typeof import('naive-ui')['NSwitch']
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> aeb4dfd (change info)
-=======
-    NScrollbar: typeof import('naive-ui')['NScrollbar']
-    NSpace: typeof import('naive-ui')['NSpace']
-    NSpin: typeof import('naive-ui')['NSpin']
-    NTable: typeof import('naive-ui')['NTable']
->>>>>>> a5761d9 (var sao ke)
-=======
->>>>>>> 6663653 (sao ke)
-=======
->>>>>>> f979713 (change info)
-=======
     NTable: typeof import('naive-ui')['NTable']
     NTag: typeof import('naive-ui')['NTag']
->>>>>>> dd0cdbf (fix VITE syntax)
     NumeronymGenerator: typeof import('./src/tools/numeronym-generator/numeronym-generator.vue')['default']
     OtpCodeGeneratorAndValidator: typeof import('./src/tools/otp-code-generator-and-validator/otp-code-generator-and-validator.vue')['default']
     PasswordStrengthAnalyser: typeof import('./src/tools/password-strength-analyser/password-strength-analyser.vue')['default']

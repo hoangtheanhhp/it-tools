@@ -15,6 +15,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import markdown from 'vite-plugin-vue-markdown';
 import svgLoader from 'vite-svg-loader';
 import { configDefaults } from 'vitest/config';
+import path from 'path';
 
 const baseUrl = process.env.BASE_URL ?? '/';
 
@@ -102,7 +103,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
-      buffer: 'buffer',
     },
   },
   define: {
@@ -114,4 +114,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
+  optimizeDeps: {
+    include: ['randexp']
+  }
 });

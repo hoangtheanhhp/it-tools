@@ -4,7 +4,7 @@ import { defineTool } from '../tool';
 export const tool = defineTool({
   name: 'Japanese Converter',
   path: '/japanese-converter',
-  description: 'Convert fullwidth text to halfwidth text.',
+  description: 'Japanese text Convert tools',
   keywords: ['fullwidth', 'halfwidth', 'text', 'converter'],
   component: () => import('./japanese-converter.vue'),
   icon: TextWrap,
